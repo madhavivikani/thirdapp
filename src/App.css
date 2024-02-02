@@ -1,0 +1,642 @@
+@media (max-width:991px){
+  .navbar-collapse{
+    position: absolute;
+  }
+  .navbar-nav{
+    position: absolute !important;
+    top: 0 !important;
+    left: 10px !important;
+    width: 100% !important;
+    background-color: red !important;
+  }
+}
+@media (max-width:768px)
+{
+  .person{
+    width: 50%;
+  }
+  .appointment_t{
+    padding-bottom: 100px !important;
+    padding: 0 50px 100px 50px;
+  }
+  .flex_in{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .flex_in>input{
+    width: 100%;
+  }
+  .flex_in>select{
+    width: 100%;
+  }
+  .f_four_p>input{
+    width: 100%;
+  }
+  .sub{
+    width: 100%;
+  }
+
+}
+@media (max-width:576px)
+{
+  .content_1{
+    padding: 200px 0 200px 20px !important;
+  }
+  .Being{
+    /* font-size: 30px !important; */
+    /* color: white; */
+    /* font-family: Britannic; */
+    /* margin: 0 !important; */
+  }
+}
+/* ++++++++++++++++++++++++++++++++ */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none !important;
+  color: inherit;
+}
+ul{
+  list-style: none;
+}
+.img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+/* +++++++++++++++ nav +++++++++ */
+.bg_color{
+  background-color: #222227 !important;
+}
+.navbar-nav .nav-link{
+  font-size: 12px;
+}
+.dropdown-toggle::after{
+  content: "";
+  border-top: 0 !important;
+  border-right: 0 !important;
+  border-bottom: 0 !important;
+  border-left: 0 !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link
+{
+  color: white !important;
+}
+.navbar-toggler-icon{
+  background-color: white !important;
+}
+.navbar-nav .dropdown-menu{
+  background-color: #222227;
+}
+.dropdown-item{
+  color: white !important;
+  font-weight: bold;
+  font-size: 12px;
+}
+.dropdown-item:hover
+{
+  background-color: #9E8A78 !important;
+}
+
+/* +++++++++++++ slider +++++++++++ */
+.item1{
+  background-image: url(./image/slider1.jpeg);
+}
+.item2{
+  background-image: url(./image/slider2.jpeg);
+}
+.item3{
+  background-image: url(./image/slider3.jpeg);
+}
+.its{
+  font-size: 17px;
+  color: #DDDDDD;
+  font-family:Britannic ;
+  margin: 0 !important;
+}
+.content_1{
+  padding: 200px 0 200px 150px;
+}
+.Being{
+  font-size: 52px;
+  color: white;
+  font-family: Britannic;
+  margin: 0 !important;
+}
+.s_our{
+  font-size: 16px;
+  color: #DDDDDD;
+  margin: 0 !important;
+}
+.slider{
+  position: relative !important;
+}
+.space_s{
+  padding-bottom: 20px;
+}
+.btn_s{
+  font-size: 12px;
+  color: white;
+  background-color: #9E8A78;
+  display: inline-block;
+  padding: 15px 20px;
+  font-weight: bold;
+  transition: 1s;
+}
+.btn_s:hover{
+  background-color: black;
+  transition: 1s;
+  cursor: pointer;
+}
+.owl-nav{
+  position: absolute;
+  width: 100%; 
+  display: flex;
+  justify-content: space-between;
+  bottom:40px;
+}
+#slider1.owl-theme .owl-dots{
+  position: absolute;
+  bottom:30px;
+  width: 100%;
+}
+#slider1.owl-theme .owl-dots .owl-dot span{
+  width:6px !important;
+  height:6px !important;
+  margin-right:1px !important;
+  background: #D6D6D6;
+  display: block;
+}
+#slider1.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+  width: 10px !important;
+  height: 10px !important;
+}
+/* +++++++++++ two part ++++++++++ */
+.intro{
+  font-size: 18px;
+  font-family:Britannic;
+  color: #303133;
+}
+.text{
+  text-align: center;
+}
+.the
+{
+  font-size: 36px;
+  font-family: Bernard MT;
+  color: #9E8A78;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.barber{
+  font-size: 16px;
+  color: #777777;
+  padding: 30px 0;
+  width:90%;
+  margin: auto;
+}
+.more_btn>a{
+  font-size: 12px;
+  color: white;
+  background-color: #9E8A78;
+  padding: 15px 30px;
+  font-weight: bold;
+  transition: 1s;
+}
+.more_btn>a:hover{
+  background-color: black;
+  transition: 1s;
+}
+.pic{
+  position: relative;
+  margin: auto;
+}
+.one > img{
+  width: 350px;
+  border-radius: 5px;
+}
+.two>img{
+  width: 300px;
+  border-radius: 5px;
+  margin-top: -180px;
+  margin-left: 300px;
+}
+
+.three>img{
+  width: 320px;
+  border-radius: 5px;
+  margin-top: -220px;
+  margin-left:70px;
+}
+.two_part{
+  padding: 80px 20px;
+  /* height: 700px; */
+}
+/* +++++++++++++ our services ++++++++++++ */
+.o_barber{
+  width: 80%;
+  margin: auto !important;
+  font-size: 16px;
+  color: #777777;
+  padding-bottom: 30px;
+}
+.per_1{
+  position: relative;
+  overflow: hidden;
+}
+.per1:hover{
+  filter: grayscale(100%);
+}
+.Kyle{
+  font-size: 20px;
+  font-family: Britannic;
+}
+.per1_text{
+  background-color:rgba(133, 117, 104, .9);
+  margin:0 14px;
+  padding: 25px 0px;
+  width: 91%;
+  display:block;
+  opacity: 0;
+  transition: 1s;
+  position: absolute;
+  bottom:-98px;
+  left:0px;
+  color: white;
+  font-weight: bold;
+}
+.per_1:hover .per1_text{
+  opacity: 1;
+  transition: 1s;
+  position: absolute;
+  bottom:0px;
+  left: 0;
+}
+.web{
+  font-size: 12px;
+  font-weight: bold;
+}
+.title_our{
+  font-family: Bernard MT;
+  font-size: 36px;
+  color: #303133;
+  letter-spacing: 5px;
+}
+.Haircut{
+  text-align: center;
+  background-color: white;
+  padding: 20px 0;
+  box-shadow: 0px 0px 10px lightgrey;
+}
+.Our_Services{
+  text-align: center;
+  background-color: #FCF9F5;
+  padding: 80px 0;
+  box-shadow: 0px 0px 10px lightgrey;
+}
+.much{
+  padding-bottom: 35px;
+}
+.salon{
+  font-family: Britannic;
+  font-size: 19px;
+  color: #9E8A78;
+}
+.name_hair{
+  font-family: Bernard MT;
+  font-size: 26px;
+  color: #303133;
+}
+/* ++++++++++++++++ testi +++++++++++ */
+.one_test{
+  text-align: center;
+  padding: 200px 0 190px 0;
+}
+.testi{
+  background-image: url(./image/testi.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.there{
+  font-size: 24px;
+  font-family:Britannic;
+  color: white;
+  font-weight: bold;
+
+}
+#slider2.owl-theme .owl-dots{
+  position: absolute;
+  bottom:30px;
+  width: 100%;
+}
+#slider2.owl-theme .owl-dots .owl-dot span{
+  width:6px !important;
+  height:6px !important;
+  margin-right:1px !important;
+  background: #D6D6D6;
+  display: block;
+}
+#slider2.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+  width: 10px !important;
+  height: 10px !important;
+}
+.les{
+  font-size: 14px;
+  color: white;
+  font-family: Britannic;
+}
+
+/* +++++++++++++ barber ++++++++ */
+.per1>img{
+  width:280px;
+}
+.Our_Barbers{
+  text-align: center;
+  background-color:white;
+  padding: 80px 0;
+  box-shadow: 0px 0px 10px lightgrey;
+}
+
+/* ++++++++++ making appointment +++++++++ */
+.Make{
+  background-color: #303133;
+  background-image: url(./image/bg.png);
+  background-position:right center;
+  background-size: contain;
+}
+.barber_img{
+  background-image: url(./image/barber.jpeg);
+  height: 690px;
+  background-size: cover;
+  background-repeat:no-repeat ;
+}
+.appointment_t{
+  padding-top: 100px;
+  padding-left: 20px;
+}
+.flex_in{
+  display: flex;
+}
+.make_an{
+  font-family:Bernard MT;
+  font-size: 36px;
+  color: white;
+}
+.flex_in>input{
+  padding: 15px 15px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: #999999;
+  background-color: transparent;
+  border: 3px solid #999999;
+}
+.barber_1{
+  font-size: 16px;
+  color: #999999;
+  width: 80%;
+  padding-bottom: 20px;
+}
+.flex_in>select{
+  padding: 15px 74px 15px 15px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: #999999;
+  background-color: transparent;
+  border: 3px solid #999999;
+}
+.btn_make{
+  margin-top: 20px;
+}
+.btn_make>a{
+  background-color: #9E8A78;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 15px 20px;
+  transition: 1s;
+}
+.btn_make>a:hover{
+  background-color: black;
+  transition: 1s;
+}
+/* +++++++++++++++ Pricing +++++++++++ */
+.price{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.Pricing{
+  background-color: #FCF9F5;
+  padding: 90px 0 70px 0;
+}
+.hair{
+  padding: 10px;
+}
+.line::before
+{
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 125px;
+    width: 60%;
+    border: 1px dashed #c0bfbe;
+}
+.hair_text{
+  font-family:Britannic;
+  font-size: 20px;
+  color: white;
+  background-color: #9E8A78;
+  display: inline-block;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+.cut_hair{
+  font-size: 20px;
+  font-family:Britannic;
+  color: #333333;
+}
+.lorem_t{
+  font-size: 16px;
+  color: #777777;
+}
+.color_pri{
+  color: #9E8A78;
+}
+.title_save{
+  text-align: center;
+}
+/* ++++++++++++ looking good +++++++++ */
+.look_good{
+  background-image: url(./image/making.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+  padding: 190px 0 150px 0;
+}
+.you{
+  font-size: 42px;
+  font-family: Bernard MT;
+  letter-spacing: 2px;
+}
+.person{
+  color: #DDDDDD;
+  font-size: 16px;
+  margin: auto;
+  padding-bottom: 20px;
+  line-height: 25px;
+}
+/* ++++++++++++ From Blog +++++++++ */
+.from_blog{
+  background-color: #FFFFFF;
+  box-shadow:0px 0px 10px lightgray;
+  padding-bottom: 70px;
+}
+.blog_title{
+  text-align: center;
+  padding: 70px 0 50px 0;
+}
+.t_blog{
+  font-size: 21px;
+  color: #303133;
+  font-family: Britannic;
+}
+.good_a{
+  font-size: 36px;
+  color: #303133;
+  font-family:Bernard MT;
+  margin: auto;
+  letter-spacing: 1px;
+}
+
+.blog_img{
+  position: relative;
+}
+.read{
+  display: flex;
+  align-items: center;
+}
+.one_blog{
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 5px lightgrey;
+}
+.mini{
+  font-size: 18px;
+  color: #303133;
+  font-family:Bernard MT ;
+  letter-spacing: 1px;
+  width: 80%;
+}
+.build{
+  font-size: 16px;
+  color: #777777;
+  width: 90%;
+}
+.read_line{
+  height: 3px;
+  width: 8%;
+  margin-right: 10px;
+  background-color: #9E8A78;
+}
+.more_read{
+  font-size: 12px;
+  color: #303133;
+  font-weight: bold;
+}
+.inter{
+  font-size: 12px;
+  background-color: #9E8A78;
+  padding:10px 30px;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  bottom:-16px;
+}
+.mini_text{
+  padding: 40px 0 30px 50px;
+}
+/* +++++++++++ company logo ++++++++++ */
+.c_item{
+  width:180px;
+  padding: 80px 0;
+}
+.company{
+  background-color: #FCF9F5;
+  }
+/* ++++++++++++ footer +++++++++ */
+.footer{
+  background-color: #222227;
+  color: white;
+  padding: 100px 0;
+}
+.icon_f>i{
+  margin-right: 15px;
+  color:#999999;
+}
+.our{
+  font-size: 16px;
+  color: #999999;
+  padding: 10px 0;
+}
+.Headquaters{
+  font-size: 19px;
+  font-family:Britannic;
+}
+.fifth{
+  font-size: 16px;
+  color: #999999;
+}
+.f_four_p>input{
+  background-color:#333333;
+  border: none;
+  padding: 15px 45px 15px 15px;
+}
+.sub{
+  background-color: #9E8A78;
+  display: inline-block;
+  padding: 15px 90px;
+  margin: 10px 0;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* +++++++++++++ copy_part ++++++++++ */
+.copy_part{
+  background-color: #222227;
+  border-top: 1px solid #9E8A78;
+  padding: 30px 0 20px 0;
+}
+.inner_copy{
+  display: flex;
+  color: white;
+  /* justify-content: space-between; */
+}
+.copy_flex{
+  display: flex;
+  justify-content: end;
+}
+.c_2023{
+  font-size: 14px;
+  color: #DDDDDD;
+}
+.order{
+  font-size: 12px;
+  color: #DDDDDD;
+  font-weight: bold;
+  margin-right: 20px;
+  transition: 1s;
+}
+.order:hover{
+  color: #9E8A78;
+  cursor: pointer;
+  transition: 1s;
+}

@@ -1,0 +1,31 @@
+how to make slider responsive in react ....
+
+1.open link react owl-carousal
+(https://www.npmjs.com/package/react-owl-carousel)
+2. go to homepage link and show the slider code and four import link on your app.js file
+3. search jquery.min.js
+(https://code.jquery.com/jquery-3.7.1.min.js)
+copy this url and paste into the index.html file using script src tag.
+4. now install link copy kari ne terminal ma run karavu okay?
+
+
+
+* routing :
+react router freecode camp kholvnu version -6
+(https://www.freecodecamp.org/news/how-to-use-react-router-version-6/)
+step by step badhu karvnu aetle aavi jse ...
+and have terminal ma badhu connect kravnu oky.
+* routing aetle aapde html ma home mathi about ma javu hoy to page load thtu aaya load vagr badhu thy using component badha portion no aek aek component banvno jenathi jarur pade tya muki ne aapde tene vapri sakiye okay.
+
+
+* Key / Listing / Props :
+
+1.  Listing aetle <ul><li></li></ul> ma krvnu badhu..
+- jem ke marii pse aek array of object che to aema to bov badha data hoy aene mare <ul><li> ma lava che to mare listing krvu pde aaya savthi vadhu (map) function no use thay tene {} aa breacket ma lakhvama aave (return krvu map ma jaruri che).
+- key thi value uniq aave dar vakhte...
+-html ma loop to na hale aetle aa vastu krvni oky...
+
+2.  Props :
+- aama aape aek component mathi bija component ma data lay jay ske similar tu UDF and argument passing valu API calling ma aavse oky .
+
+
